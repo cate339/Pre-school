@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap')
+
 body,
 html {
     background-color: #fff ;
@@ -12,15 +14,63 @@ html {
     margin: 25px 25px 25px 90%;
 }
 
-
-.bar {
+.hamburger {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 5px 0;
+    cursor: pointer;
+
+}
+
+
+.bar {
     width: 31px;
     border: 1px solid #000;
-    margin: 5px 0;
+    margin: 3px 0;
     padding: 0;
-    cursor: pointer;
+    -webkit-transition: all ease 0.2;
     transition: all 0.2s;
+}
+
+
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    margin: 2px;
+}
+
+
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+    margin: 2px;
+}
+
+.container {
+    background-image: url(./images/background\ landing\ page.jpg);
+}
+
+.card {
+    width: 250px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.star {
+    height: 30px;
+}
+
+.cardtext {
+    margin-left: 20px;
+    font-family: 'kiwi maru',serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(29, 29, 27);
 }
