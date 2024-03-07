@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
 
 body,
 html {
@@ -51,15 +51,34 @@ html {
 
 .container {
     background-image: url(./images/background\ landing\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    padding: 48px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcometext {
+    font-family: 'kiwi maru', serif;
+    font-size: 66px;
+    font-weight: 700;
 }
 
 .card {
     width: 250px;
+    height: 50px;
     border: 1px;
     border-radius: 20px;
     background-color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 10px;
 }
 
@@ -71,6 +90,39 @@ html {
     margin-left: 20px;
     font-family: 'kiwi maru',serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
+    line-height: 24px;
     color: rgb(29, 29, 27);
+}
+
+.button {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.but1{
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255);
+    border-radius: 60px;
+    font-family: 'kiwi maru', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+    line-height: 23px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.but2{
+    background-color: rgb(255, 0, 102);
+    border: 1px rgb(255, 255, 255);
+    border-radius: 60px;
+    font-family: 'kiwi maru', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 23px;
+    cursor: pointer;
+    padding: 10px 40px;
 }
