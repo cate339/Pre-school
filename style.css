@@ -143,6 +143,11 @@ html {
     padding: 10px 30px;
 }
 
+.but1:hover{
+    background-color: rgb(255, 0, 102);
+    color: rgb(255, 255, 255);
+}
+
 .but2{
     background-color: rgb(255, 0, 102);
     border: 1px rgb(255, 255, 255);
@@ -154,4 +159,9 @@ html {
     line-height: 23px;
     cursor: pointer;
     padding: 10px 40px;
+}
+
+.but2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(128, 128, 128);
 }
