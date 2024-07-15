@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+body,
+html {
+    background-color: #fff ;
+    margin: 0;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#landingPage{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar{
+    width: auto;
+    height: 45px;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    cursor: pointer;
+
+}
+
+
+.bar {
+    width: 31px;
+    border: 1px solid #000;
+    margin: 3px 0;
+    padding: 0;
+    -webkit-transition: all ease 0.2;
+    transition: all 0.2s;
+}
+
+
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    margin: 2px;
+}
+
+
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+    margin: 2px;
+}
+
+.container {
+    background-image: url(./images/background\ landing\ page.jpg);
+    width: fit-content;
+    height: 670px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.welcometext {
+    font-family: 'kiwi maru', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(29, 29, 27);
+    padding-bottom: 10px;
+    margin-left: 40px;
+
+
+}
+
+.card {
+    width: 250px;
+    height: 50px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: -75px;
+    
+}
+
+.star {
+    height: 30px;
+}
+
+.cardtext {
+    margin-left: 20px;
+    font-family: 'kiwi maru',serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(29, 29, 27);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: -150px;
+    gap: 20px;
+}
+
+.but1{
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255);
+    border-radius: 60px;
+    font-family: 'kiwi maru', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+    line-height: 23px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.but1:hover{
+    background-color: rgb(255, 0, 102);
+    color: rgb(255, 255, 255);
+}
+
+.but2{
+    background-color: rgb(255, 0, 102);
+    border: 1px rgb(255, 255, 255);
+    border-radius: 60px;
+    font-family: 'kiwi maru', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 23px;
+    cursor: pointer;
+    padding: 10px 40px;
+}
+
+.but2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(128, 128, 128);
+}
+
+#learningEnv{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: 0 10px 20px 0 rgb(29, 29, 27);
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+    padding: 40px;
+    gap: 30px;
+    align-items: center;
+}
+
+h2{
+    font-family: 'kiwi maru', serif;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    color: #1d1d1d;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+
+.teacher{
+    background-color: #fab6c6;
+}
+
+p{
+    font-family: 'kiwi maru', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1d;
+}
+
+h3{
+    font-family: 'kiwi maru', serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1d1d1d;
+}
+
+.safety{
+    background-color: #a8d657;
+}
+
+.cute{
+    background-color: #f5e74c;
+}
