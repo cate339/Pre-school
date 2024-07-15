@@ -187,3 +187,43 @@ h2{
     font-style: normal;
     color: #1d1d1d;
 }
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+
+.teacher{
+    background-color: #fab6c6;
+}
+
+p{
+    font-family: 'kiwi maru', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1d;
+}
+
+h3{
+    font-family: 'kiwi maru', serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1d1d1d;
+}
+
+.safety{
+    background-color: #a8d657;
+}
+
+.cute{
+    background-color: #f5e74c;
+}
